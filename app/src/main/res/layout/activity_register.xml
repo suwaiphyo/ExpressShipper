@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_title"
+            android:minHeight="?android:attr/actionBarSize"
+            android:popupTheme="@android:style/ThemeOverlay.Material.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/activity_horizontal_margin">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/strmm_register_name"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:textColorHint="@color/colorWhite"
+                android:id="@+id/edt_name"
+                android:inputType="textCapWords" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/strmm_register_email"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:textColorHint="@color/colorWhite"
+                android:id="@+id/edt_username"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/strmm_login_password"
+                android:textColorHint="@color/colorWhite"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:id="@+id/edt_password"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/strmm_register_phone"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:textColorHint="@color/colorWhite"
+                android:id="@+id/edt_phone"
+                android:inputType="phone" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:textColor="@color/colorWhite"
+                android:text="@string/strmm_register_terms"
+                android:checked="false"
+                android:id="@+id/chk_remember_account"
+                android:visibility="visible"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="@dimen/activity_horizontal_margin">
+
+            <Button
+                android:id="@+id/btn_login_back"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_default_height"
+                android:background="@color/colorOrange"
+                android:text="@string/strmm_register_loginback"
+                android:layout_weight="50"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_default_height"
+                android:background="@color/colorGreen"
+                android:text="@string/strmm_register"
+                android:id="@+id/btn_submit"
+                android:layout_weight="50"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

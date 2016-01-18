@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smk.ExpressShipper528">
+
+    <uses-sdk
+        android:maxSdkVersion="23"
+        android:minSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.smk.ExpressShipper528.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.smk.ExpressShipper528.RegisterActivity"
+            android:label="@string/strmm_register_title" />
+        <activity
+            android:name="com.smk.ExpressShipper528.CargoPlaceActivity"
+            android:label="@string/strmm_cargoplace_title" />
+        <activity
+            android:name="com.smk.ExpressShipper528.CargoReceivePlaceActivity"
+            android:label="@string/strmm_cargoreceive_title" />
+        <activity
+            android:name="com.smk.ExpressShipper528.CargoInfoActivity"
+            android:label="@string/strmm_cargoinfo_title" />
+        <activity
+            android:name="com.smk.ExpressShipper528.DeliveryCompanyActivity"
+            android:label="@string/strmm_deliveryco_title"></activity>
+    </application>
+
+</manifest>

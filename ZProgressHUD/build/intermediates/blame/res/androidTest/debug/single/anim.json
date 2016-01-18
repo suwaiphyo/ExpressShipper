@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\round_spinner_apple.xml",
+        "source": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\round_spinner_apple.xml"
+    },
+    {
+        "merged": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\gear_spinner.xml",
+        "source": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\gear_spinner.xml"
+    },
+    {
+        "merged": "E:\\suwai\\MakePayment\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\round_spinner_fade.xml",
+        "source": "E:\\suwai\\MakePayment\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\round_spinner_fade.xml"
+    },
+    {
+        "merged": "E:\\suwai\\MakePayment\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\round_spinner_apple.xml",
+        "source": "E:\\suwai\\MakePayment\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\round_spinner_apple.xml"
+    },
+    {
+        "merged": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\round_spinner.xml",
+        "source": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\round_spinner.xml"
+    },
+    {
+        "merged": "E:\\suwai\\MakePayment\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\gear_spinner.xml",
+        "source": "E:\\suwai\\MakePayment\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\gear_spinner.xml"
+    },
+    {
+        "merged": "E:\\suwai\\MakePayment\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\round_spinner.xml",
+        "source": "E:\\suwai\\MakePayment\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\round_spinner.xml"
+    },
+    {
+        "merged": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\round_spinner_fade.xml",
+        "source": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\round_spinner_fade.xml"
+    }
+]

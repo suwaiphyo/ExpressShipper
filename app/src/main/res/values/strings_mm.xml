@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="strmm_login_title">မိမိစာရင္းသုိ႔၀င္ရန္</string>
+    <string name="strmm_login_email_ph">အီးေမး(လ္) (သုိ႔မဟုတ္) ဖုန္းနံပါတ္</string>
+    <string name="strmm_login_password">လွ်ိဳ႕၀ွက္နံပါတ္</string>
+    <string name="strmm_login_register">စာရင္းအသစ္</string>
+    <string name="strmm_login">၀င္မည္</string>
+    <string name="strmm_register_title">စာရင္းအသစ္တင္ရန္</string>
+    <string name="strmm_register_name">အမည္</string>
+    <string name="strmm_register_email">အီးေမး(လ္)</string>
+    <string name="strmm_register_phone">ဖုန္းနံပါတ္</string>
+    <string name="strmm_register_terms">စည္းမ်ဥ္းစည္းကမ္းမ်ား အားလံုးကုိ လုိက္နာပါမည္။</string>
+    <string name="strmm_register_loginback">ျပန္၀င္မည္</string>
+    <string name="strmm_register">စာရင္းတင္မည္</string>
+    <string name="strmm_cargoplace_title">ေပးပုိ႔ရန္ ပစၥည္းရွိ လိပ္စာ</string>
+    <string name="strmm_level1">အဆင့္ (၁)</string>
+    <string name="strmm_level2">အဆင့္ (၂)</string>
+    <string name="strmm_cargoplace_address">ပစၥည္းရွိ လိပ္စာ အျပည့္အစံု</string>
+    <string name="strmm_cargoplace_division">ပစၥည္းရွိ တုိင္း/ျပည္နယ္</string>
+    <string name="strmm_cargoplace_township">ပစၥည္းရွိ ၿမိဳ႕နယ္</string>
+    <string name="strmm_cargoplace_myorders">မိမိစာရင္းသုိ႔</string>
+    <string name="strmm_continue">ဆက္သြားမည္</string>
+    <string name="strmm_cargoreceive_title">ပစၥည္း လက္ခံမည့္ လိပ္စာ</string>
+    <string name="strmm_cargoreceive_name">ပစၥည္းလက္ခံသူ အမည္</string>
+    <string name="strmm_cargoreceive_email">ပစၥည္းလက္ခံမည့္ အီးေမး(လ္)</string>
+    <string name="strmm_cargoreceive_phone">ပစၥည္းလက္ခံမည့္ ဖုန္း</string>
+    <string name="strmm_cargoreceive_address">ပစၥည္းလက္ခံမည့္ လိပ္စာအျပည့္အစံု</string>
+    <string name="strmm_cargoreceive_division">ပစၥည္းလက္ခံမည့္ တုိင္း/ျပည္နယ္</string>
+    <string name="strmm_cargoreceive_township">ပစၥည္းလက္ခံမည့္ ၿမိဳ႕နယ္</string>
+    <string name="strmm_level3">အဆင့္ (၃)</string>
+    <string name="strmm_back">ေနာက္သုိ႔</string>
+    <string name="strmm_cargoinfo_title">ပစၥည္းမ်ား ျဖည့္ရန္</string>
+    <string name="strmm_cargoinfo_category">ပစၥည္းအမ်ိဳးအစား (၁) ခု</string>
+    <string name="strmm_cargoinfo_name">ပစၥည္းအမည္</string>
+    <string name="strmm_cargoinfo_qty">အမ်ိဳးအစားတူ ပစၥည္းအေရအတြက္</string>
+    <string name="strmm_cargoinfo_length">အလ်ား</string>
+    <string name="strmm_cargoinfo_width">အနံ</string>
+    <string name="strmm_cargoinfo_height">အျမင့္</string>
+    <string name="strmm_cargoinfo_next">ေနာက္တစ္ခု ထပ္ထည့္မည္</string>
+    <string name="strmm_level4">အဆင့္ (၄)</string>
+    <string name="strmm_deliveryco_title">ပို႔ေဆာင္မည့္ ကုမၸဏီ</string>
+    <string name="strmm_deliveryco_choose">ပို႔ေဆာင္မည့္ ကုမၸဏီ ေရြးပါ</string>
+    <string name="strmm_send">ပုိ႔မည္</string>
+    <string name="strmm_level5">အဆင့္ (၅)</string>
+
+</resources>

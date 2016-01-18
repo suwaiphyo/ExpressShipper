@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
+    tools:context=".LockScreenActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_password_box"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_password_box_1"
+                android:layout_width="@dimen/btn_password_box"
+                android:layout_height="@dimen/btn_password_box"
+                android:layout_margin="@dimen/btn_password_box_margin"
+                android:background="@drawable/btn_password_box"/>
+
+            <Button
+                android:id="@+id/btn_password_box_2"
+                android:layout_width="@dimen/btn_password_box"
+                android:layout_height="@dimen/btn_password_box"
+                android:layout_margin="@dimen/btn_password_box_margin"
+                android:background="@drawable/btn_password_box"/>
+
+            <Button
+                android:id="@+id/btn_password_box_3"
+                android:layout_width="@dimen/btn_password_box"
+                android:layout_height="@dimen/btn_password_box"
+                android:layout_margin="@dimen/btn_password_box_margin"
+                android:background="@drawable/btn_password_box"/>
+
+            <Button
+                android:id="@+id/btn_password_box_4"
+                android:layout_width="@dimen/btn_password_box"
+                android:layout_height="@dimen/btn_password_box"
+                android:layout_margin="@dimen/btn_password_box_margin"
+                android:background="@drawable/btn_password_box"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_password_1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/one"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_circle"
+                android:textSize="22dp"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/btn_password_2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/two"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:background="@drawable/btn_circle"
+                android:textSize="22dp"
+                android:textColor="@color/colorWhite" />
+
+
+            <Button
+                android:id="@+id/btn_password_3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/three"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_circle"
+                android:textSize="22dp"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_password_4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/four"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_circle"
+                android:textSize="22dp"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/btn_password_5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/five"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:background="@drawable/btn_circle"
+                android:textSize="22dp"
+                android:textColor="@color/colorWhite" />
+
+
+            <Button
+                android:id="@+id/btn_password_6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/six"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_circle"
+                android:textSize="22dp"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_password_7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/seven"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_circle"
+                android:textSize="22dp"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/btn_password_8"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/eight"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:background="@drawable/btn_circle"
+                android:textSize="22dp"
+                android:textColor="@color/colorWhite" />
+
+
+            <Button
+                android:id="@+id/btn_password_9"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/nine"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_circle"
+                android:textSize="22dp"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_password_0"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="@string/zero"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_circle"
+                android:textSize="22dp"
+                android:textColor="@color/colorWhite" />
+
+            <com.mikepenz.iconics.view.IconicsImageView
+                android:id="@+id/btn_ok"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:background="@drawable/btn_circle"
+                app:iiv_color="@color/colorWhite"
+                app:iiv_icon="gmd_navigate_next"
+                app:iiv_size="16dp"/>
+
+
+            <com.mikepenz.iconics.view.IconicsImageView
+                android:id="@+id/btn_clear"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_circle"
+                app:iiv_color="@color/colorWhite"
+                app:iiv_icon="gmd_close"
+                app:iiv_size="14dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

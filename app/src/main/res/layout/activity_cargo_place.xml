@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_title"
+            android:minHeight="?android:attr/actionBarSize"
+            android:popupTheme="@android:style/ThemeOverlay.Material.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/activity_horizontal_margin">
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/strmm_level1"
+                    android:id="@+id/textView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:textColor="@color/colorWhite"/>
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_centerInParent="true"
+                    android:background="@color/colorAccent"
+                    android:id="@+id/imageView"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/strmm_level2"
+                    android:id="@+id/textView2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="210dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:gravity="right"
+                    android:textColor="@color/colorGray"/>
+            </RelativeLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/strmm_cargoplace_address"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:textColorHint="@color/colorWhite"
+                android:id="@+id/edt_cargo_address"
+                android:inputType="textCapWords" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spn_cargo_division" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spn_cargo_township"
+                android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="@dimen/activity_horizontal_margin" >
+
+            <Button
+                android:id="@+id/btn_my_orders"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_default_height"
+                android:background="@color/colorOrange"
+                android:layout_weight="50"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:hint="@string/strmm_cargoplace_myorders"
+                android:text="@string/strmm_cargoplace_myorders" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_default_height"
+                android:background="@color/colorGreen"
+                android:id="@+id/btn_continue"
+                android:layout_weight="50"
+                android:hint="@string/strmm_continue"
+                android:text="@string/strmm_continue" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
