@@ -39,10 +39,39 @@ public class CargoReceivePlaceActivity extends BaseAppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+<<<<<<< HEAD
         spn_cargo_division = (Spinner) findViewById(R.id.spn_cargo_division);
         spn_cargo_township = (Spinner) findViewById(R.id.spn_cargo_township);
         btn_back = (Button) findViewById(R.id.btn_back);
         btn_continue = (Button) findViewById(R.id.btn_continue);
+=======
+        spn_cargo_division = (Spinner)findViewById(R.id.spn_cargo_division);
+        spn_cargo_township = (Spinner)findViewById(R.id.spn_cargo_township);
+        btn_back = (Button)findViewById(R.id.btn_back);
+        btn_continue = (Button)findViewById(R.id.btn_continue);
+
+        // CargoParam Divsion DropDown
+        List<String> divisions = new ArrayList<String>();
+        divisions.add(getResources().getString(R.string.strmm_cargoreceive_division));
+        divisions.add("Yangon");
+        divisions.add("Mandalay");
+        divisions.add("Ayeyarwaddy");
+        divisions.add("Sakaing");
+
+        ArrayAdapter<String> divisionAdapter = new ArrayAdapter<String>(this, R.layout.support_simple_spinner_dropdown_item, divisions);
+        spn_cargo_division.setAdapter(divisionAdapter);
+
+        // CargoParam Township DropDown
+        List<String> townships = new ArrayList<String>();
+        townships.add(getResources().getString(R.string.strmm_cargoreceive_township));
+        townships.add("Yankin");
+        townships.add("Bahan");
+        townships.add("Kyimyintine");
+        townships.add("Lathar");
+
+        ArrayAdapter<String> townshipAdapter = new ArrayAdapter<String>(this, R.layout.support_simple_spinner_dropdown_item, townships);
+        spn_cargo_township.setAdapter(townshipAdapter);
+>>>>>>> b4a23945818853959715bda3b94e595a964ca315
 
         NetworkEngine.getInstance().getCity(new Callback<List<City>>() {
             @Override
