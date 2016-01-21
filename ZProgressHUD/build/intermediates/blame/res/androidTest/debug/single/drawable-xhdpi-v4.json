@@ -1,18 +1,26 @@
 [
     {
-        "merged": "E:\\suwai\\MakePayment\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\failure.png",
-        "source": "E:\\suwai\\MakePayment\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\failure.png"
+        "merged": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\failure.png",
+        "source": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\failure.png"
+    },
+    {
+        "merged": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\failure.png",
+        "source": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\failure.png"
     },
     {
         "merged": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\success.png",
         "source": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\success.png"
     },
     {
+        "merged": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\success.png",
+        "source": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\success.png"
+    },
+    {
         "merged": "E:\\suwai\\MakePayment\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\success.png",
         "source": "E:\\suwai\\MakePayment\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\success.png"
     },
     {
-        "merged": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\failure.png",
-        "source": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\failure.png"
+        "merged": "E:\\suwai\\MakePayment\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\failure.png",
+        "source": "E:\\suwai\\MakePayment\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\failure.png"
     }
 ]
