@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\suwai\ExpressShipper\ZProgressHUD\assets"/></dataSet><dataSet config="debug"><source path="E:\suwai\ExpressShipper\ZProgressHUD\build-types\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="E:\ppl\studio\ExpressShipper\ZProgressHUD\assets"/></dataSet><dataSet config="debug"><source path="E:\ppl\studio\ExpressShipper\ZProgressHUD\build-types\debug\assets"/></dataSet></merger>

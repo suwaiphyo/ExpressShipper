@@ -1,34 +1,18 @@
 [
     {
-        "merged": "E:\\suwai\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\toast_vertical_border.xml",
-        "source": "E:\\suwai\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\bundles\\debug\\res\\drawable\\toast_vertical_border.xml"
+        "merged": "E:\\ppl\\studio\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\toast_border.xml",
+        "source": "E:\\ppl\\studio\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\bundles\\debug\\res\\drawable\\toast_border.xml"
     },
     {
-        "merged": "E:\\suwai\\MakePayment\\SKConnectionDetector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\no_internet.png",
-        "source": "E:\\suwai\\MakePayment\\SKConnectionDetector\\build\\intermediates\\bundles\\debug\\res\\drawable\\no_internet.png"
+        "merged": "E:\\ppl\\studio\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\toast_vertical_border.xml",
+        "source": "E:\\ppl\\studio\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\bundles\\debug\\res\\drawable\\toast_vertical_border.xml"
     },
     {
-        "merged": "E:\\suwai\\MakePayment\\SKConnectionDetector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\toast_vertical_border.xml",
-        "source": "E:\\suwai\\MakePayment\\SKConnectionDetector\\build\\intermediates\\bundles\\debug\\res\\drawable\\toast_vertical_border.xml"
+        "merged": "E:\\ppl\\studio\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\delete.png",
+        "source": "E:\\ppl\\studio\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\bundles\\debug\\res\\drawable\\delete.png"
     },
     {
-        "merged": "E:\\suwai\\MakePayment\\SKConnectionDetector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\delete.png",
-        "source": "E:\\suwai\\MakePayment\\SKConnectionDetector\\build\\intermediates\\bundles\\debug\\res\\drawable\\delete.png"
-    },
-    {
-        "merged": "E:\\suwai\\MakePayment\\SKConnectionDetector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\toast_border.xml",
-        "source": "E:\\suwai\\MakePayment\\SKConnectionDetector\\build\\intermediates\\bundles\\debug\\res\\drawable\\toast_border.xml"
-    },
-    {
-        "merged": "E:\\suwai\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\delete.png",
-        "source": "E:\\suwai\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\bundles\\debug\\res\\drawable\\delete.png"
-    },
-    {
-        "merged": "E:\\suwai\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\toast_border.xml",
-        "source": "E:\\suwai\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\bundles\\debug\\res\\drawable\\toast_border.xml"
-    },
-    {
-        "merged": "E:\\suwai\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\no_internet.png",
-        "source": "E:\\suwai\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\bundles\\debug\\res\\drawable\\no_internet.png"
+        "merged": "E:\\ppl\\studio\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\no_internet.png",
+        "source": "E:\\ppl\\studio\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\bundles\\debug\\res\\drawable\\no_internet.png"
     }
 ]

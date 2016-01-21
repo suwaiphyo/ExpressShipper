@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\suwai\ExpressShipper\SKConnectionDetector\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="E:\suwai\ExpressShipper\SKConnectionDetector\build-types\release\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="E:\ppl\studio\ExpressShipper\SKConnectionDetector\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="E:\ppl\studio\ExpressShipper\SKConnectionDetector\build-types\release\jniLibs"/></dataSet></merger>
