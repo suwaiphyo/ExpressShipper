@@ -1,10 +1,14 @@
 package com.smk.clients;
 
+import com.smk.model.City;
 import com.smk.model.User;
+
+import java.util.List;
 
 import retrofit.Callback;
 import retrofit.http.Field;
 import retrofit.http.FormUrlEncoded;
+import retrofit.http.GET;
 import retrofit.http.POST;
 
 public interface INetworkEngine {
@@ -24,4 +28,10 @@ public interface INetworkEngine {
             @Field("email") String email,
             @Field("password") String password,
             Callback<User> callback);
+
+    @GET("/api/city")
+    void getCity(
+            Callback<List<City>> callback);
+
+
 }

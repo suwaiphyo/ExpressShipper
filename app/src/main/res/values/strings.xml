@@ -32,10 +32,10 @@
     <string name="give_password">Welcome to Make Money. Please click to your password number.</string>
     <string name="enter_username">Enter Username</string>
     <string name="enter_password">Enter Password</string>
-    <string name="invalid_username">Please enter username.</string>
+    <string name="invalid_username">Please enter valid username.</string>
     <string name="invalid_password">Passwords must be at least 6 characteristics.</string>
-    <string name="invalid_phone">Passwords must be at least 6 characteristics.</string>
-    <string name="remember_password">Remember Account</string>
+    <string name="invalid_phone">Phone must be at least 6 characteristics.</string>
+    <string name="remember_password">အျမဲတမ္းမွတ္ထားမည္...</string>
     <string name="title_activity_cargo_place">CargoPlaceActivity</string>
     <string name="title_activity_cargo_receive_place">CargoReceivePlaceActivity</string>
     <string name="title_activity_delivery_company">Choose Delivery Company</string>

@@ -3,90 +3,87 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/colorPrimary"
     tools:context="com.smk.ExpressShipper528.LoginActivity">
 
     <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/scrollView" >
+        android:layout_height="match_parent">
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar_title"
-                android:minHeight="?android:attr/actionBarSize"
-                android:popupTheme="@android:style/ThemeOverlay.Material.Light"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorPrimaryDark" />
+                android:background="@color/colorPrimaryDark"
+                android:minHeight="?android:attr/actionBarSize"
+                android:popupTheme="@android:style/ThemeOverlay.Material.Light" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_margin="@dimen/activity_horizontal_margin">
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:orientation="vertical">
+
                 <EditText
+                    android:id="@+id/edt_username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
                     android:layout_marginTop="@dimen/activity_vertical_margin"
                     android:hint="@string/strmm_login_email_ph"
-                    android:layout_marginBottom="@dimen/activity_vertical_margin"
-                    android:textColorHint="@color/colorWhite"
-                    android:id="@+id/edt_username"
-                    android:inputType="text" />
+                    android:inputType="text"
+                    android:textColorHint="@color/colorWhite" />
 
                 <EditText
-                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:id="@+id/edt_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/strmm_login_password"
-                    android:textColorHint="@color/colorWhite"
                     android:layout_marginBottom="@dimen/activity_vertical_margin"
-                    android:id="@+id/edt_password"
-                    android:inputType="textPassword" />
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:hint="@string/strmm_login_password"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/colorWhite" />
 
                 <CheckBox
+                    android:id="@+id/chk_remember_account"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/activity_vertical_margin"
-                    android:textColor="@color/colorWhite"
-                    android:text="@string/remember_password"
                     android:checked="false"
-                    android:id="@+id/chk_remember_account"
-                    android:visibility="gone"/>
+                    android:text="@string/remember_password"
+                    android:textColor="@color/colorWhite" />
 
             </LinearLayout>
 
             <LinearLayout
-                android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
                 android:gravity="center"
-                android:layout_margin="@dimen/activity_horizontal_margin">
+                android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/btn_login"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/btn_default_height"
-                    android:background="@color/colorOrange"
-                    android:text="@string/strmm_login"
-                    android:layout_weight="50"
                     android:layout_marginRight="@dimen/activity_horizontal_margin"
-                     />
+                    android:layout_weight="50"
+                    android:background="@color/colorOrange"
+                    android:text="@string/strmm_login" />
 
                 <Button
+                    android:id="@+id/btn_register"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/btn_default_height"
-                    android:background="@color/colorGreen"
-                    android:text="@string/strmm_login_register"
-                    android:id="@+id/btn_register"
                     android:layout_weight="50"
-                    />
+                    android:background="@color/colorGreen"
+                    android:text="@string/strmm_login_register" />
             </LinearLayout>
 
         </LinearLayout>

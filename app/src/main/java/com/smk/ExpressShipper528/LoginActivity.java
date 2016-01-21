@@ -13,6 +13,7 @@ import android.widget.Toast;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.smk.clients.NetworkEngine;
 import com.smk.model.User;
+import com.smk.util.StoreUtil;
 import com.thuongnh.zprogresshud.ZProgressHUD;
 
 import retrofit.Callback;
@@ -27,6 +28,7 @@ public class LoginActivity extends BaseAppCompatActivity {
     private ZProgressHUD dialog;
     private CheckBox chk_remember;
     private Toolbar toolbar;
+
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -49,6 +51,11 @@ public class LoginActivity extends BaseAppCompatActivity {
         edt_password = (EditText) findViewById(R.id.edt_password);
         chk_remember = (CheckBox) findViewById(R.id.chk_remember_account);
 
+        User user = StoreUtil.getInstance().selectFrom("users");
+        if (user != null) {
+            Intent i = new Intent(LoginActivity.this, CargoPlaceActivity.class);
+            startActivity(i);
+        }
 /*        AccessToken accessToken = StoreUtil.getInstance().selectFrom("users");
         if (accessToken != null) {
             getAccessToken(accessToken.getUser().getEmail(), MCrypt.getInstance().decrypt(accessToken.getUser().getPassword()));
@@ -83,6 +90,9 @@ public class LoginActivity extends BaseAppCompatActivity {
             @Override
             public void success(User user, Response response) {
                 dialog.dismissWithSuccess();
+                if (chk_remember.isChecked()) {
+                    StoreUtil.getInstance().saveTo("users", user);
+                }
                 Intent i = new Intent(LoginActivity.this, CargoPlaceActivity.class);
                 startActivity(i);
             }
@@ -102,7 +112,6 @@ public class LoginActivity extends BaseAppCompatActivity {
             if (v == btn_login) {
                 if (checkField()) {
                     LoginUser();
-                    //     PostUser(edt_username.getText().toString(), edt_password.getText().toString());
                 }
             }
             if (v == btn_register) {
@@ -112,14 +121,18 @@ public class LoginActivity extends BaseAppCompatActivity {
     };
 
     private boolean checkField() {
+
+
         String email = edt_username.getText().toString().trim();
         String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
         if (edt_username.getText().length() != 0) {
             edt_username.setError(getResources().getString(R.string.invalid_username));
             return false;
         }
+
         if (edt_password.getText().length() == 0 && edt_password.getText().length() < 6) {
             edt_password.setError(getResources().getString(R.string.invalid_password));
+            edt_password.requestFocus();
             return false;
         }
         return true;
