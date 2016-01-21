@@ -1,13 +1,5 @@
 [
     {
-        "merged": "E:\\suwai\\MakePayment\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dialog_progress.xml",
-        "source": "E:\\suwai\\MakePayment\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_progress.xml"
-    },
-    {
-        "merged": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dialog_progress.xml",
-        "source": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_progress.xml"
-    },
-    {
         "merged": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dialog_progress.xml",
         "source": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_progress.xml"
     }

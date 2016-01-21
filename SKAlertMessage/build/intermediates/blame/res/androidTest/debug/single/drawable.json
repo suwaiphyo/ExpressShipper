@@ -1,47 +1,15 @@
 [
     {
-        "merged": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\SKAlertMessage\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\sk_toast_message_selector_info.xml",
-        "source": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\SKAlertMessage\\build\\intermediates\\bundles\\debug\\res\\drawable\\sk_toast_message_selector_info.xml"
+        "merged": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\SKAlertMessage\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\sk_toast_message_selector_warning.xml",
+        "source": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\SKAlertMessage\\build\\intermediates\\bundles\\debug\\res\\drawable\\sk_toast_message_selector_warning.xml"
     },
     {
         "merged": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\SKAlertMessage\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\sk_toast_message_selector_success.xml",
         "source": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\SKAlertMessage\\build\\intermediates\\bundles\\debug\\res\\drawable\\sk_toast_message_selector_success.xml"
     },
     {
-        "merged": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\SKAlertMessage\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\sk_toast_message_selector_warning.xml",
-        "source": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\SKAlertMessage\\build\\intermediates\\bundles\\debug\\res\\drawable\\sk_toast_message_selector_warning.xml"
-    },
-    {
-        "merged": "E:\\suwai\\MakePayment\\SKAlertMessage\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\sk_toast_message_selector_info.xml",
-        "source": "E:\\suwai\\MakePayment\\SKAlertMessage\\build\\intermediates\\bundles\\debug\\res\\drawable\\sk_toast_message_selector_info.xml"
-    },
-    {
-        "merged": "E:\\suwai\\ExpressShipper\\SKAlertMessage\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\sk_toast_message_selector_warning.xml",
-        "source": "E:\\suwai\\ExpressShipper\\SKAlertMessage\\build\\intermediates\\bundles\\debug\\res\\drawable\\sk_toast_message_selector_warning.xml"
-    },
-    {
-        "merged": "E:\\suwai\\ExpressShipper\\SKAlertMessage\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\sk_toast_message_selector_info.xml",
-        "source": "E:\\suwai\\ExpressShipper\\SKAlertMessage\\build\\intermediates\\bundles\\debug\\res\\drawable\\sk_toast_message_selector_info.xml"
-    },
-    {
-        "merged": "E:\\suwai\\ExpressShipper\\SKAlertMessage\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\sk_toast_message_selector_success.xml",
-        "source": "E:\\suwai\\ExpressShipper\\SKAlertMessage\\build\\intermediates\\bundles\\debug\\res\\drawable\\sk_toast_message_selector_success.xml"
-    },
-    {
-        "merged": "E:\\suwai\\MakePayment\\SKAlertMessage\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\sk_toast_message_selector_warning.xml",
-        "source": "E:\\suwai\\MakePayment\\SKAlertMessage\\build\\intermediates\\bundles\\debug\\res\\drawable\\sk_toast_message_selector_warning.xml"
-    },
-    {
-        "merged": "E:\\suwai\\MakePayment\\SKAlertMessage\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\sk_toast_message_selector_error.xml",
-        "source": "E:\\suwai\\MakePayment\\SKAlertMessage\\build\\intermediates\\bundles\\debug\\res\\drawable\\sk_toast_message_selector_error.xml"
-    },
-    {
-        "merged": "E:\\suwai\\ExpressShipper\\SKAlertMessage\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\sk_toast_message_selector_error.xml",
-        "source": "E:\\suwai\\ExpressShipper\\SKAlertMessage\\build\\intermediates\\bundles\\debug\\res\\drawable\\sk_toast_message_selector_error.xml"
-    },
-    {
-        "merged": "E:\\suwai\\MakePayment\\SKAlertMessage\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\sk_toast_message_selector_success.xml",
-        "source": "E:\\suwai\\MakePayment\\SKAlertMessage\\build\\intermediates\\bundles\\debug\\res\\drawable\\sk_toast_message_selector_success.xml"
+        "merged": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\SKAlertMessage\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\sk_toast_message_selector_info.xml",
+        "source": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\SKAlertMessage\\build\\intermediates\\bundles\\debug\\res\\drawable\\sk_toast_message_selector_info.xml"
     },
     {
         "merged": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\SKAlertMessage\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\sk_toast_message_selector_error.xml",

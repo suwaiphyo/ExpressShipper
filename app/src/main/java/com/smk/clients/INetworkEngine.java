@@ -1,7 +1,6 @@
 package com.smk.clients;
 
-import com.smk.model.AccessToken;
-import com.smk.model.Payment;
+import com.smk.model.User;
 
 import retrofit.Callback;
 import retrofit.http.Field;
@@ -10,31 +9,19 @@ import retrofit.http.POST;
 
 public interface INetworkEngine {
 
-	@FormUrlEncoded
-	@POST("/oauth/access_token")
-	void getAccessToken(
-			@Field("grant_type") String grant_type,
-			@Field("client_id") String client_id,
-			@Field("client_secret") String client_secret,
-			@Field("scope") String scope,
-			@Field("username") String username,
-			@Field("password") String password,
-			Callback<AccessToken> callback);
+    @FormUrlEncoded
+    @POST("/api/register")
+    void postUser(
+            @Field("name") String name,
+            @Field("email") String email,
+            @Field("password") String password,
+            @Field("phone") String phone,
+            Callback<User> callback);
 
-	@FormUrlEncoded
-	@POST("/api-v1/payment/confirm")
-	void getPaymentConfirm(
-			@Field("access_token") String token,
-			@Field("code") String code,
-			@Field("client_id") Integer user_id,
-			Callback<Payment> callback);
-
-	@FormUrlEncoded
-	@POST("/api-v1/userlogin")
-	void postUser(
-			@Field("email") String email,
-			@Field("password") String password,
-			Callback<AccessToken> callback);
-	
-
+    @FormUrlEncoded
+    @POST("/api/login")
+    void postLogin(
+            @Field("email") String email,
+            @Field("password") String password,
+            Callback<User> callback);
 }

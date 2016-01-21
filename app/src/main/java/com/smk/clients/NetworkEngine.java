@@ -22,7 +22,7 @@ public class NetworkEngine {
 		
 		if (instance==null) {
 			RestAdapter adapter = new RestAdapter.Builder()
-			.setEndpoint("http://payment.shopyface.com")
+			.setEndpoint("http://192.168.0.107")
 			.setLogLevel(RestAdapter.LogLevel.FULL)
 			.setRequestInterceptor(requestInterceptor)
 			.setClient(new GzippedClient(new OkClient(new OkHttpClient())))

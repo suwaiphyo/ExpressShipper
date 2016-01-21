@@ -35,7 +35,7 @@ public class CargoReceivePlaceActivity extends BaseAppCompatActivity {
         btn_back = (Button)findViewById(R.id.btn_back);
         btn_continue = (Button)findViewById(R.id.btn_continue);
 
-        // Cargo Divsion DropDown
+        // CargoParam Divsion DropDown
         List<String> divisions = new ArrayList<String>();
         divisions.add(getResources().getString(R.string.strmm_cargoreceive_division));
         divisions.add("Yangon");
@@ -46,7 +46,7 @@ public class CargoReceivePlaceActivity extends BaseAppCompatActivity {
         ArrayAdapter<String> divisionAdapter = new ArrayAdapter<String>(this, R.layout.support_simple_spinner_dropdown_item, divisions);
         spn_cargo_division.setAdapter(divisionAdapter);
 
-        // Cargo Township DropDown
+        // CargoParam Township DropDown
         List<String> townships = new ArrayList<String>();
         townships.add(getResources().getString(R.string.strmm_cargoreceive_township));
         townships.add("Yankin");
