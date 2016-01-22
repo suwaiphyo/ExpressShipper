@@ -1,18 +1,18 @@
 [
     {
-        "merged": "E:\\ppl\\studio\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\toast_border.xml",
-        "source": "E:\\ppl\\studio\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\bundles\\debug\\res\\drawable\\toast_border.xml"
+        "merged": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\no_internet.png",
+        "source": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\bundles\\debug\\res\\drawable\\no_internet.png"
     },
     {
-        "merged": "E:\\ppl\\studio\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\toast_vertical_border.xml",
-        "source": "E:\\ppl\\studio\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\bundles\\debug\\res\\drawable\\toast_vertical_border.xml"
+        "merged": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\delete.png",
+        "source": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\bundles\\debug\\res\\drawable\\delete.png"
     },
     {
-        "merged": "E:\\ppl\\studio\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\delete.png",
-        "source": "E:\\ppl\\studio\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\bundles\\debug\\res\\drawable\\delete.png"
+        "merged": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\toast_border.xml",
+        "source": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\bundles\\debug\\res\\drawable\\toast_border.xml"
     },
     {
-        "merged": "E:\\ppl\\studio\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\no_internet.png",
-        "source": "E:\\ppl\\studio\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\bundles\\debug\\res\\drawable\\no_internet.png"
+        "merged": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\toast_vertical_border.xml",
+        "source": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\SKConnectionDetector\\build\\intermediates\\bundles\\debug\\res\\drawable\\toast_vertical_border.xml"
     }
 ]

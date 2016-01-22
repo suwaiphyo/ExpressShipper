@@ -123,9 +123,9 @@ public class LoginActivity extends BaseAppCompatActivity {
     private boolean checkField() {
 
 
-        String email = edt_username.getText().toString().trim();
-        String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
-        if (edt_username.getText().length() != 0) {
+        //String email = edt_username.getText().toString().trim();
+        //String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
+        if (edt_username.getText().length() == 0) {
             edt_username.setError(getResources().getString(R.string.invalid_username));
             return false;
         }
