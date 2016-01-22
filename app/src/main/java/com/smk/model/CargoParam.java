@@ -8,24 +8,28 @@ public class CargoParam {
     @SerializedName("item_name")
     @Expose
     private String itemName;
-    @SerializedName("qty")
+    @SerializedName("quantity")
     @Expose
-    private Integer qty;
+    private Integer quantity;
     @SerializedName("weight")
     @Expose
     private Integer weight;
-    @SerializedName("unite")
+    @SerializedName("unit")
     @Expose
-    private String unite;
+    private String unit;
     @SerializedName("width")
     @Expose
     private Integer width;
-    @SerializedName("lenght")
+    @SerializedName("length")
     @Expose
-    private Integer lenght;
+    private Integer length;
     @SerializedName("height")
     @Expose
     private Integer height;
+
+
+    public CargoParam() {
+    }
 
     /**
      * @return The itemName
@@ -45,14 +49,14 @@ public class CargoParam {
      * @return The qty
      */
     public Integer getQty() {
-        return qty;
+        return quantity;
     }
 
     /**
      * @param qty The qty
      */
     public void setQty(Integer qty) {
-        this.qty = qty;
+        this.quantity = qty;
     }
 
     /**
@@ -73,14 +77,14 @@ public class CargoParam {
      * @return The unite
      */
     public String getUnite() {
-        return unite;
+        return unit;
     }
 
     /**
      * @param unite The unite
      */
     public void setUnite(String unite) {
-        this.unite = unite;
+        this.unit = unite;
     }
 
     /**
@@ -98,17 +102,17 @@ public class CargoParam {
     }
 
     /**
-     * @return The lenght
+     * @return The length
      */
-    public Integer getLenght() {
-        return lenght;
+    public Integer getLength() {
+        return length;
     }
 
     /**
-     * @param lenght The lenght
+     * @param length The length
      */
-    public void setLenght(Integer lenght) {
-        this.lenght = lenght;
+    public void setLength(Integer length) {
+        this.length = length;
     }
 
     /**
@@ -125,4 +129,16 @@ public class CargoParam {
         this.height = height;
     }
 
+    @Override
+    public String toString() {
+        return "{" +
+                "\"item_name\":\"" + itemName + '\"' +
+                ",\"quantity\":" + quantity +
+                ",\"weight\":" + weight +
+                ",\"unit\":\"" + unit + '\"' +
+                ",\"width\":" + width +
+                ",\"length\":" + length +
+                ",\"height\":" + height +
+                "}";
+    }
 }

@@ -122,15 +122,13 @@ public class LoginActivity extends BaseAppCompatActivity {
 
     private boolean checkField() {
 
-
-        //String email = edt_username.getText().toString().trim();
-        //String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
         if (edt_username.getText().length() == 0) {
             edt_username.setError(getResources().getString(R.string.invalid_username));
+            edt_username.requestFocus();
             return false;
         }
 
-        if (edt_password.getText().length() == 0 && edt_password.getText().length() < 6) {
+        if (edt_password.getText().length() < 6) {
             edt_password.setError(getResources().getString(R.string.invalid_password));
             edt_password.requestFocus();
             return false;

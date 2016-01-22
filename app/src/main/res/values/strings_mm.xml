@@ -3,6 +3,7 @@
     <string name="strmm_login_title">မိမိစာရင္းသုိ႔၀င္ရန္</string>
     <string name="strmm_login_email_ph">အီးေမး(လ္) (သုိ႔မဟုတ္) ဖုန္းနံပါတ္</string>
     <string name="strmm_login_password">လွ်ိဳ႕၀ွက္နံပါတ္</string>
+    <string name="strmm_remember_password">အျမဲတမ္းမွတ္ထားမည္...</string>
     <string name="strmm_login_register">စာရင္းအသစ္</string>
     <string name="strmm_login">၀င္မည္</string>
     <string name="strmm_register_title">စာရင္းအသစ္တင္ရန္</string>

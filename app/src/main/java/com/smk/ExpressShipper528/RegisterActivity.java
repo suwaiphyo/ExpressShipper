@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import com.smk.clients.NetworkEngine;
 import com.smk.model.User;
+import com.smk.util.StoreUtil;
 import com.thuongnh.zprogresshud.ZProgressHUD;
 
 import retrofit.Callback;
@@ -54,6 +55,7 @@ public class RegisterActivity extends BaseAppCompatActivity {
             @Override
             public void success(User user, Response response) {
                 dialog.dismissWithSuccess();
+                StoreUtil.getInstance().saveTo("users", user);
                 Intent i = new Intent(RegisterActivity.this, CargoPlaceActivity.class);
                 startActivity(i);
 
@@ -75,11 +77,9 @@ public class RegisterActivity extends BaseAppCompatActivity {
                 startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
             }
             if (v == btn_submit) {
-                PostUser();
-                //    if (checkField()) {
-
-                //    }
-
+                if (checkField()) {
+                    PostUser();
+                }
             }
         }
     };
@@ -87,6 +87,12 @@ public class RegisterActivity extends BaseAppCompatActivity {
     private boolean checkField() {
         if (name.getText().length() == 0) {
             name.setError(getResources().getString(R.string.invalid_username));
+            name.requestFocus();
+            return false;
+        }
+        if (email.getText().length() == 0) {
+            email.setError(getResources().getString(R.string.invalid_password));
+            email.requestFocus();
             return false;
         }
         if (password.getText().length() < 6) {
@@ -94,7 +100,7 @@ public class RegisterActivity extends BaseAppCompatActivity {
             password.requestFocus();
             return false;
         }
-        if (phone.getText().length() == 0 && phone.getText().length() < 6) {
+        if (phone.getText().length() < 6) {
             password.setError(getResources().getString(R.string.invalid_password));
             password.requestFocus();
             return false;
