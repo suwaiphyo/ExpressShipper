@@ -13,7 +13,7 @@ import android.widget.Toast;
 import com.smk.adapter.DeliveryCompanyLvAdapter;
 import com.smk.clients.NetworkEngine;
 import com.smk.model.CargoParam;
-import com.smk.model.ShippingParam;
+import com.smk.model.Shipping;
 import com.smk.model.User;
 import com.smk.util.StoreUtil;
 import com.thuongnh.zprogresshud.ZProgressHUD;
@@ -112,9 +112,9 @@ public class DeliveryCompanyActivity extends BaseAppCompatActivity {
         dialog.show();
         Log.i("Error", cargoParamList.toString());
         User user = StoreUtil.getInstance().selectFrom("users");
-        NetworkEngine.getInstance().postShipping(user.getId(), CargoAddress, CargoDiv, CargoTownship, CargoReceiveName, CargoReceiveEmail, CargoReceivePhone, CargoReceiveAddress, CargoReceiveDivision, CargoReceiverTownship, cargoParamList.toString(), 1, new Callback<ShippingParam>() {
+        NetworkEngine.getInstance().postShipping(user.getId(), CargoAddress, CargoDiv, CargoTownship, CargoReceiveName, CargoReceiveEmail, CargoReceivePhone, CargoReceiveAddress, CargoReceiveDivision, CargoReceiverTownship, cargoParamList.toString(), 1, new Callback<Shipping>() {
             @Override
-            public void success(ShippingParam shippingParam, Response response) {
+            public void success(Shipping shipping, Response response) {
                 dialog.dismissWithSuccess();
             }
 

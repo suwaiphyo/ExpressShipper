@@ -77,11 +77,9 @@ public class RegisterActivity extends BaseAppCompatActivity {
                 startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
             }
             if (v == btn_submit) {
-                PostUser();
-                //    if (checkField()) {
-
-                //    }
-
+                if (checkField()) {
+                    PostUser();
+                }
             }
         }
     };
