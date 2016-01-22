@@ -56,7 +56,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/activity_vertical_margin"
                     android:checked="false"
-                    android:text="@string/remember_password"
+                    android:text="@string/strmm_remember_password"
                     android:textColor="@color/colorWhite" />
 
             </LinearLayout>
