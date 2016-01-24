@@ -16,12 +16,12 @@
         "source": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\spinner_round_00.png"
     },
     {
-        "merged": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\gear_spinner_08.png",
-        "source": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\gear_spinner_08.png"
-    },
-    {
         "merged": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\gear_spinner_05.png",
         "source": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\gear_spinner_05.png"
+    },
+    {
+        "merged": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\gear_spinner_08.png",
+        "source": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\gear_spinner_08.png"
     },
     {
         "merged": "E:\\suwai\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\gear_spinner_00.png",

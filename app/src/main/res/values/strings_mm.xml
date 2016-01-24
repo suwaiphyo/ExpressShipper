@@ -3,6 +3,7 @@
     <string name="strmm_login_title">မိမိစာရင္းသုိ႔၀င္ရန္</string>
     <string name="strmm_login_email_ph">အီးေမး(လ္) (သုိ႔မဟုတ္) ဖုန္းနံပါတ္</string>
     <string name="strmm_login_password">လွ်ိဳ႕၀ွက္နံပါတ္</string>
+    <string name="strmm_password_new">လွ်ိဳ႕၀ွက္နံပါတ္ အသစ္</string>
     <string name="strmm_remember_password">အျမဲတမ္းမွတ္ထားမည္...</string>
     <string name="strmm_login_register">စာရင္းအသစ္</string>
     <string name="strmm_login">၀င္မည္</string>
@@ -43,5 +44,36 @@
     <string name="strmm_deliveryco_choose">ပို႔ေဆာင္မည့္ ကုမၸဏီ ေရြးပါ</string>
     <string name="strmm_send">ပုိ႔မည္</string>
     <string name="strmm_level5">အဆင့္ (၅)</string>
-
+    <string name="strmm_confirm_sender">ေပးပုိ႔သူ</string>
+    <string name="strmm_confirm_phone">ဖုန္း</string>
+    <string name="strmm_confirm_address">လိပ္စာ</string>
+    <string name="strmm_confirm_taker">လက္ခံမည့္သူ</string>
+    <string name="strmm_confirm_cargoname">ပစၥည္းအမည္</string>
+    <string name="strmm_confirm_totalweight">စုစုေပါင္း အေလးခ်ိန္</string>
+    <string name="strmm_confirm_totalcharges">စုစုေပါင္း ပုိ႔ေဆာင္ခ</string>
+    <string name="strmm_confirm">ေသခ်ာသည္</string>
+    <string name="strmm_confirm_title">ေသခ်ာမႈအတြက္ စစ္ရန္</string>
+    <string name="strmm_thankyou_title">အသိေပး အေၾကာင္းၾကားျခင္း </string>
+    <string name="strmm_thankyou">Go Logistic ကုိ အသံုးျပဳမႈအတြက္ အထူးေက်းဇူးတင္ပါသည္။</string>
+    <string name="strmm_thankyou_letter">လူၾကီးမင္း၏ ပစၥည္းအား မၾကာခင္ အခ်ိန္အတြင္း နီးစပ္ရာ ပုိ႔ေဆာင္သူ တစ္ဦးဦးမွ လာယူပါမည္။
+ပုိ႔ေဆာင္သူ မွန္ကန္မႈ ရွိမရွိ အတြက္ Go Logistic မွ လူၾကီးမင္း၏ ဖုန္းအား အေၾကာင္းၾကား ေပးပါမည္။ Go Logistic မွ အေၾကာင္းၾကားၿပီးမွသာ လူၾကီးမင္း၏ ပစၥည္းအား ပုိ႔ေဆာင္သူထံ အပ္ႏွံေပးရပါမည္။ </string>
+    <string name="strmm_cancel">ထြက္မည္</string>
+    <string name="strmm_myorder_title">မိမိစာရင္းမ်ား</string>
+    <string name="strmm_myorder_pending">မပုိ႔ေဆာင္ရေသးေသာ စာရင္းမ်ား</string>
+    <string name="strmm_myorder_progressing">ပုိ႔ေဆာင္ေနေသာ စာရင္းမ်ား</string>
+    <string name="strmm_myorder_delivered">ပုိ႔ေဆာင္ၿပီး စာရင္းမ်ား</string>
+    <string name="strmm_update_profile">မိမိပရုိဖုိင္ ျပင္မည္</string>
+    <string name="strmm_taker_name">လက္ခံမည့္သူ အမည္</string>
+    <string name="strmm_taker_address">လက္ခံမည့္သူ လိပ္စာ</string>
+    <string name="strmm_taker_phone">လက္ခံမည့္သူ ဖုန္း</string>
+    <string name="strmm_cargo_name">ပစၥည္းအမည္</string>
+    <string name="strmm_cargo_qty">ပစၥည္းအေရအတြက္</string>
+    <string name="strmm_deliver_date">ပစၥည္း ပုိ႔ေဆာင္ရန္ တင္သည့္ေန႔ရက္</string>
+    <string name="strmm_deliver_status">ပစၥည္းပုိ႔ေဆာင္မႈ အေျခအေန</string>
+    <string name="strmm_delete">ပယ္ဖ်က္မည္</string>
+    <string name="strmm_update">ျပင္မည္</string>
+    <string name="strmm_cargo_sender">ပစၥည္း ပုိ႔ေဆာင္သူ</string>
+    <string name="strmm_sender_company">ပုိ႔ေဆာင္သည့္ ကုမၸဏီ</string>
+    <string name="strmm_cancel2">မလုပ္ေသးပါ</string>
+    <string name="strmm_update_profile_title">မိမိစာရင္း ျပင္ရန္</string>
 </resources>

@@ -39,4 +39,12 @@
     <string name="title_activity_cargo_receive_place">CargoReceivePlaceActivity</string>
     <string name="title_activity_delivery_company">Choose Delivery Company</string>
     <string name="invalid_message">require</string>
+    <string name="title_activity_final_confirm">FinalConfirmActivity</string>
+    <string name="title_activity_thank_you">ThankYouActivity</string>
+    <string name="title_activity_my_orders">MyOrdersActivity</string>
+    <string name="title_activity_my_pending_cargo">MyPendingCargoActivity</string>
+    <string name="title_activity_my_progressing_cargo">MyProgressingCargoActivity</string>
+    <string name="title_activity_my_delivered_cargo">MyDeliveredCargoActivity</string>
+    <string name="title_activity_update_profile">UpdateProfileActivity</string>
+    <string name="password_donotmatch">Do not match two password</string>
 </resources>

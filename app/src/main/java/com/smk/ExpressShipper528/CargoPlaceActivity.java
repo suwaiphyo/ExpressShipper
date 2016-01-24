@@ -64,8 +64,6 @@ public class CargoPlaceActivity extends BaseAppCompatActivity {
         });
         btn_my_orders.setOnClickListener(clickListener);
         btn_continue.setOnClickListener(clickListener);
-
-
     }
 
     private Integer cargoDivision = 0;
@@ -106,7 +104,7 @@ public class CargoPlaceActivity extends BaseAppCompatActivity {
         @Override
         public void onClick(View v) {
             if (v == btn_my_orders) {
-                //startActivity(new Intent(CargoPlaceActivity.this, LoginActivity.class));
+                startActivity(new Intent(CargoPlaceActivity.this, MyOdersActivity.class));
             }
             if (v == btn_continue) {
                 if (checkField()) {
