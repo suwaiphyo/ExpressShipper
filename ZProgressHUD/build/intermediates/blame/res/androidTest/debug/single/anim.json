@@ -1,18 +1,18 @@
 [
     {
-        "merged": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\gear_spinner.xml",
-        "source": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\gear_spinner.xml"
+        "merged": "E:\\ppl\\studio\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\round_spinner.xml",
+        "source": "E:\\ppl\\studio\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\round_spinner.xml"
     },
     {
-        "merged": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\round_spinner_apple.xml",
-        "source": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\round_spinner_apple.xml"
+        "merged": "E:\\ppl\\studio\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\round_spinner_apple.xml",
+        "source": "E:\\ppl\\studio\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\round_spinner_apple.xml"
     },
     {
-        "merged": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\round_spinner_fade.xml",
-        "source": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\round_spinner_fade.xml"
+        "merged": "E:\\ppl\\studio\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\gear_spinner.xml",
+        "source": "E:\\ppl\\studio\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\gear_spinner.xml"
     },
     {
-        "merged": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\round_spinner.xml",
-        "source": "D:\\Android\\@Android_Studio_Workspace\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\round_spinner.xml"
+        "merged": "E:\\ppl\\studio\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\round_spinner_fade.xml",
+        "source": "E:\\ppl\\studio\\ExpressShipper\\ZProgressHUD\\build\\intermediates\\bundles\\debug\\res\\anim\\round_spinner_fade.xml"
     }
 ]

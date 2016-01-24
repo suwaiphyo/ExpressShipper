@@ -102,7 +102,7 @@ public class DeliveryCompanyActivity extends BaseAppCompatActivity {
             }
             if (v == btn_send) {
                 PostShipping();
-                // startActivity(new Intent(CargoPlaceActivity.this, LoginActivity.class));
+                startActivity(new Intent(DeliveryCompanyActivity.this, FinalConfirmActivity.class));
             }
         }
     };

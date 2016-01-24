@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\Android\@Android_Studio_Workspace\ExpressShipper\SKAlertMessage\assets"/></dataSet><dataSet config="debug"><source path="D:\Android\@Android_Studio_Workspace\ExpressShipper\SKAlertMessage\build-types\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="E:\ppl\studio\ExpressShipper\SKAlertMessage\assets"/></dataSet><dataSet config="debug"><source path="E:\ppl\studio\ExpressShipper\SKAlertMessage\build-types\debug\assets"/></dataSet></merger>
